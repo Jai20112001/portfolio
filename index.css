@@ -1,0 +1,423 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+}
+
+nav {
+    background-color: #121212;
+    position: sticky;
+    top: 0%;
+    z-index: 0;
+    border-bottom: 1px solid aqua;
+    display: flex;
+    padding: .5%;
+    box-shadow: 2px 2px 2px #0ef;
+}
+
+.logo {
+    width: 50%;
+    color: #fff;
+    text-align: left;
+    font-size: 25px;
+    margin-left: 50px;
+    font-weight: 600;
+}
+
+.logo a {
+    color: #0ef;
+    font-size: 25px;
+    margin-left: 1px;
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    text-shadow: 3px 3px 5px #000000;
+}
+
+.nav-links a:hover {
+    color: #0ef;
+}
+
+.line-1 {
+    width: 85%;
+    margin-top: -1%;
+    border: 1px solid #0ef;
+}
+
+.home {
+    height: 100%;
+}
+
+.home h1 {
+    color: #ffffff;
+    text-shadow: 5px 5px 10px #000000;
+    margin-top: 150px;
+    margin-left: 100px;
+    font-size: 52px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.home h2 {
+    color: #fff;
+    font-size: 50px;
+    text-shadow: 5px 5px 10px #000000;
+    margin-top: -30px;
+    margin-left: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.home i {
+    color: #0ef;
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.home p {
+    color: #fff;
+    margin-left: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+    gap: 50px;
+}
+
+.home button {
+    background-color: #0ef;
+    height: 40px;
+    width: 13%;
+    margin-top: 5%;
+    margin-left: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px #000000;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.home button a {
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: #121212;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home button:hover {
+    background-color: #121212;
+    border: 1px solid #0ef;
+    box-shadow: 0px 0px 10px #0ef;
+}
+
+.home button a:hover {
+    color: #0ef;
+}
+
+.line-2 {
+    width: 85%;
+    margin-top: 10%;
+    border: 1px solid #0ef;
+}
+
+.about-me h1 {
+    color: #0ef;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 50px;
+}
+
+.about {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.about .about-left {
+    width: 50%;
+    height: 100%;
+
+}
+
+.about .about-left img {
+    width: 350px;
+    height: 350px;
+    border: 3px solid #0ef;
+    border-radius: 50%;
+    margin-top: 70px;
+    margin-left: 200px;
+    box-shadow: 0px 0px 30px #0ef;
+}
+
+.about .about-right {
+    height: 100%;
+    width: 50%;
+    padding-left: 40px;
+}
+
+.about-right h2 {
+    color: #fff;
+    font-size: 20px;
+    text-align: left;
+    text-shadow: 5px 5px 10px #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 30px;
+}
+
+.about-right i {
+    color: #0ef;
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about-right p {
+    font-size: 15px;
+    color: #fff;
+    width: 70%;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 35px;
+}
+
+.about-right .pname {
+    text-align: right;
+    color: cyan;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.line-3 {
+    width: 85%;
+    margin-top: 5%;
+    border: 1px solid #0ef;
+}
+
+.my-project h1 {
+    color: #0ef;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 50px;
+}
+
+.project {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project .p1 {
+    padding: 2%;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.project .p1 img {
+    height: 100%;
+    width: 94%;
+    margin-top: 1.5%;
+    margin-left: 2.6%;
+    border-radius: 10px;
+    border: 2px solid #0ef;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.project .p1 img:hover {
+    scale: 1.05;
+    opacity: .8;
+}
+
+.project .button {
+    background-color: #0ef;
+    height: 40px;
+    width: 40%;
+    margin-top: 45px;
+    margin-left: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px #000000;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.project .button a {
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: #121212;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project .button i {
+    font-size: 25px;
+}
+
+.project .button:hover {
+    background-color: #121212;
+    border: 1px solid #0ef;
+    box-shadow: 0px 0px 10px #0ef;
+}
+
+.project .button a:hover {
+    color: #0ef;
+}
+
+.line-4 {
+    width: 85%;
+    margin-top: 8%;
+    border: 1px solid #0ef;
+}
+
+.contact-me h1 {
+    color: #0ef;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 50px;
+}
+
+.contact {
+    height: 100%;
+    margin-top: 80px;
+    margin-left: 120px;
+}
+
+.whatsapp {
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.whatsapp i {
+    color: #0ef;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.whatsapp p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.location {
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.location i {
+    color: #0ef;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.location p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.contact h3 {
+    color: #fff;
+    font-weight: 500;
+    margin-top: 50px;
+    font-size: 25px;
+    color: #0ef;
+    text-align: center;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -200px;
+    margin-top: 60px;
+}
+
+.contact-links .mail,
+.linkedin,
+.github,
+.call {
+    display: flex;
+    align-items: center;
+}
+
+.mail i,
+.linkedin i,
+.github i,
+.call i {
+    color: #0ef;
+    font-size: 25px;
+}
+
+.mail,
+.linkedin,
+.github,
+.call,
+a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.line-5 {
+    width: 85%;
+    margin-top: 9.7%;
+    border: 1px solid #0ef;
+}
+
+@media (max-width: 1050px) {
+    .about {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px) {
+    .project {
+        flex-direction: column;
+    }
+
+    .contact-links {
+        flex-direction: column;
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 450px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        margin-left: 50px;
+    }
+}
